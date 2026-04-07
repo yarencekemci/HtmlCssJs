@@ -3,4 +3,5 @@
   <Project Path="Lesson1_Html_Giris/Lesson1_Html_Giris.csproj" Id="624d67b6-0d91-4b78-9ec6-2a5144795ea8" />
   <Project Path="Lesson2_1_HtmlCss/Lesson2_1_HtmlCss.csproj" Id="48faedc6-882e-41f3-9850-2152fd4e52b1" />
   <Project Path="Lesson2_2_css_class_id/Lesson2_2_css_class_id.csproj" Id="af02b64e-ff35-4be3-9520-df1e156e61ed" />
+  <Project Path="Lesson3_1_css_class_id/Lesson3_1_css_class_id.csproj" Id="3dc5f744-d675-48a5-9d99-2b5f09b50c92" />
 </Solution>
