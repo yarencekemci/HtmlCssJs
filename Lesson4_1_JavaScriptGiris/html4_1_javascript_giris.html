@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div {
+            margin: 20px;
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;*/
+        }
+    </style>
+    <div>
+        <label>adınız</label>
+        <input type="text" id="adiniz" />
+    </div>
+    <div>
+        <label>soyadınız</label>
+        <input type="text" id="soyadiniz" />
+    </div>
+    <div>
+        <input type="button" onclick="AdSoyadGoster()" id="kaydet" value="KAYDET"/>
+    </div>
+    <div id="gosterYazi"> </div>
+    <script>
+        /*
+        Javascript nedir? 
+        bir metin dili olup html etiketleri, attirubeleri ile renkli, hareketli işlemlerin yanında data alışverişini sağlayarak sayfalara esneklik sağlar.
+        aşağıdaki kütüphaneler birer javascript (js kütüphanesidir)
+        jquery,
+        ecmajs,
+        purejs,
+        angular,
+        reactjs
+        */
+        // jd de 3 veri tipi vardır
+        // var, let, const
+        var s = 90;
+        var sayi1 = 10;
+        var sayi2 = 55;
+        var toplam = sayi1 + sayi2;
+
+        console.log("sayi1: " + sayi1);
+        console.log("sayi2: " + sayi2);
+        console.log("2 sayinin toplamı: " + toplam);
+
+        let sayilar = [1, 2, 3, 4, 5]; // dizi
+
+        function AdSoyadGoster() {
+            /*
+            ONCLICK = "AdSoyadGGoster()" button için bu yapıyı (attiribute) ekledik. Bu js function click(tıklandığında-click) edildiğinde çalıştıracaktır. AdSoyadGoster() bir js function'udur. 
+            */ 
+            //var s1 = 70;
+            //var s2 = 78;
+            //let toplam = s1 + s2;
+            //console.log("2 sayının toplamı: " + toplam); // console ekranında gösterir
+            //window.alert("2 sayinin toplami: " + toplam) //ekranda küçük pencerede gösterir
+            let ad = document.getElementById('adiniz').value;
+            let soyad = document.getElementById('soyadiniz').value;
+
+            var sonuc = document.getElementById("gosterYazi");
+            /*sonuc.innerText = "ad-soyad:<h3>" + ad + " " + soyad + "</h3>"; -- sadece yazılan yazıyı gösterir, içinde html kod varsa html kodu olarak okumaz (render etmez)*/
+            sonuc.innerHTML = "ad-soyad:<h3>" + ad + " " + soyad + "</h3>"; //içinde html kodu varsa innerHtml bunu render eder 
+
+        }
+        // veri tipleri işlemleri
+        //var,let farkı
+
+        {
+            var deger1 = 90;
+            let deger2 = 8;
+            console.log("var için işlem: " + deger1);
+            console.log("let için işlem: " + deger2);
+            if (true) {
+            }
+            console.log("-------------")
+        }
+        console.log("let değişkeni scpoe'ı dışında kullanıldığı için sonuç vermez not defined(bulunamadı) hatası verir");
+
+        //let sadece bulunduğu parantez altında(scope) altında çalışır, var her yerde çalışır
+
+        console.log("var için işlem: " + deger1);
+        //console.log("let için işlem: " + deger2);
+        //hata verir
+
+        
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
