@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Class Tag Name JS</title>
+    
+    <link href="main5.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div>
+        <label class="alanlabel1">1.Sayı</label>
+        <input type="text" id="sayi1" class="alan1" name="" />
+        <input type="hidden" class="alan1" name="name" value="" />
+    </div>
+    <!--hidden(gizlemek): gizli input,kullanıcı tarafında görülmez,form gönderilirken bu inputun değeri de gönderilir, genellikle id numarası gibi bilgileri saklamak için kullanılır-->
+    <div>
+        <label class="alanlabel1">2.Sayi</label>
+        <input type="text" id="sayi2" class="alan1" name="" />
+    </div>
+    <div>
+        <label class="alanlabel1">3.Sayi</label>
+        <input type="text" id="sayi3" class="alan1" name="" />
+    </div>
+    <div>
+        <input type="button" onclick="" id="hesapla" value="HESAPLA" />
+    </div>
+    <div>
+        <input type="button" onclick="Degistir()" id="durumjs" value="DURUMJS" />
+    </div>
+    <div>
+        <input type="button" onclick="TagNameFunction()" value="TAG NAME JS" />
+    </div>
+
+
+    <p id="sonucGoster"></p>
+
+    <script src="tagclass.js"></script>
+</body>
+</html>

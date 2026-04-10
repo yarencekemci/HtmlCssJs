@@ -1,0 +1,13 @@
+﻿div {
+    margin: 25px;
+}
+
+.alan1 {
+    border: 1px groove green;
+    color: brown;
+}
+
+.alanlabel1 {
+    border: 1px hidden red;
+    color: brown;
+}

@@ -1,0 +1,25 @@
+div {
+    margin: 25px;
+}
+
+.alan1 {
+    border: 1px groove green;
+    color: brown;
+}
+
+.alanlabel1 {
+    border: 1px hidden red;
+    color: brown;
+}
+.alan2 {
+border: 2px double #ff6a00;
+color: green;
+}
+
+.alan3 {
+background-color: yellow;
+}
+
+.alan4 {
+background-color: aqua;
+}
