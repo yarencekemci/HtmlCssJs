@@ -1,0 +1,9 @@
+﻿div {
+    margin: 25px;
+}
+
+/*Paragraf-1 butonuna tıklandığında sadece 1. paragraf görünsün diğerleri kaybolsun.*/
+
+.alan1 {
+    border: 1px hidden black;
+}
