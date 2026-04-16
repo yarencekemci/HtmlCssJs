@@ -1,0 +1,31 @@
+﻿div {
+    margin: 25px;
+}
+
+
+.alan1 {
+    border: 1px groove green;
+    color: black;
+}
+
+
+.baslik {
+    font-weight: bold;
+}
+
+/* Paragraf */
+.paragraf1 {
+    font-size: 14px;
+}
+
+/* 1. paragraf için */
+.alanKirmizi {
+    color: red;
+    background-color: blue;
+}
+
+/*  2. paragraf için */
+.alanYesil {
+    color: green;
+    background-color: yellow;
+}
