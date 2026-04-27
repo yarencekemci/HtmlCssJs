@@ -10,4 +10,5 @@
   <Project Path="Lesson5_2_js_ornek/Lesson5_2_js_ornek.csproj" Id="df9614b0-f5ee-4da2-b74f-a64cd0e0672d" />
   <Project Path="Lesson7_1_Bootstarp/Lesson7_1_Bootstarp.csproj" Id="daec3d12-4c04-4bf8-a1b3-d1bd35d29044" />
   <Project Path="Lesson8_1_Class/Lesson8_1_Class.csproj" Id="ae57b40a-61ee-4f5f-87e5-f8ba5bd83ee7" />
+  <Project Path="Lesson9_1_Static_Class/Lesson9_1_Static_Class.csproj" Id="a1ce82c4-86fd-42a6-bd32-b8e9ce713a33" />
 </Solution>
