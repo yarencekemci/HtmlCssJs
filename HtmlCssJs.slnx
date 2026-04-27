@@ -11,4 +11,5 @@
   <Project Path="Lesson7_1_Bootstarp/Lesson7_1_Bootstarp.csproj" Id="daec3d12-4c04-4bf8-a1b3-d1bd35d29044" />
   <Project Path="Lesson8_1_Class/Lesson8_1_Class.csproj" Id="ae57b40a-61ee-4f5f-87e5-f8ba5bd83ee7" />
   <Project Path="Lesson9_1_Static_Class/Lesson9_1_Static_Class.csproj" Id="a1ce82c4-86fd-42a6-bd32-b8e9ce713a33" />
+  <Project Path="Lesson9_2_Constructor_Method/Lesson9_2_Constructor_Method.csproj" Id="f2cd293f-6370-45aa-b1e6-2e7073894e4d" />
 </Solution>
