@@ -8,6 +8,7 @@
 
         public string Kaydet(string adi, double fiyat, DateTime tarih);//implement edecek method
         public string Guncelle(int id, string adi, double fiyat);//implement edecek method
+        public string List(bool aktif);
 
     }
 }
