@@ -34,7 +34,7 @@ namespace Lesson11_1_OOP_Ornek.Management
                 return bosMesaj;
             }
             return urunKaydet.Adi + "olan ürün \n" + urunKaydet.SatisFiyat + "fiyat ile \n" + urunKaydet.Stok + " adet satildi" ;
-
+            //Kaydet işlemi müşteri ve sipariş için burada yapıldığı gibi yapılacaktır.
         }
 
         public List<UrunlerEntity> List()
