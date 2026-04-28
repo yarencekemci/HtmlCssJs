@@ -11,6 +11,7 @@
             turkiye.Baskent("Ankara");
             turkiye.DenizKiyiSayisi(4);
             turkiye.DenizleriBaglayanBogaz("Çanakkale Boğazı\n İstanbul Boğazı");
+            turkiye.BilinenDaglar("Kaz", "Erciyes", "Agri");
 
             ABD abd = new ABD();
             abd.Bayrak("kırmızı,beyaz,mavi");
