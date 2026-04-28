@@ -14,9 +14,27 @@ namespace Lesson11_1_OOP_Ornek.Management
             throw new NotImplementedException();
         }
 
-        public string Kaydet(UrunlerEntity urun)
+        public string Kaydet(UrunlerEntity urunKaydet)
         {
-            throw new NotImplementedException();
+            string bosMesaj = string.Empty; // string degisken icin bos verir
+            if (string.IsNullOrEmpty( urunKaydet.Adi))
+            {
+                bosMesaj = "Ürün adi bos olamaz";
+            }
+            if (urunKaydet.SatisFiyat <= 0)
+            {
+                bosMesaj = "Ürün fiyatı 0'dan büyük olmalı";
+            }
+            if (urunKaydet.Stok <= 0)
+            {
+                bosMesaj = "\n ürün stok değeri 0'dan büyük olmalıdır";
+            }
+            if (bosMesaj != string.Empty)
+            {
+                return bosMesaj;
+            }
+            return urunKaydet.Adi + "olan ürün \n" + urunKaydet.SatisFiyat + "fiyat ile \n" + urunKaydet.Stok + " adet satildi" ;
+
         }
 
         public List<UrunlerEntity> List()
