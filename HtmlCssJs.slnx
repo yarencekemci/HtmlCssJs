@@ -13,4 +13,5 @@
   <Project Path="Lesson9_1_Static_Class/Lesson9_1_Static_Class.csproj" Id="a1ce82c4-86fd-42a6-bd32-b8e9ce713a33" />
   <Project Path="Lesson9_2_Constructor_Method/Lesson9_2_Constructor_Method.csproj" Id="f2cd293f-6370-45aa-b1e6-2e7073894e4d" />
   <Project Path="Lesson9_3_OOP_Kalitim/Lesson9_3_OOP_Kalitim.csproj" Id="63d33215-8517-4757-9c39-a9d4c51e7b9b" />
+  <Project Path="Lesson9_4_OOP_inheritance_Ornek/Lesson9_4_OOP_inheritance_Ornek.csproj" Id="0b5cfa70-439d-40ff-b6f6-965a4527eaf2" />
 </Solution>
