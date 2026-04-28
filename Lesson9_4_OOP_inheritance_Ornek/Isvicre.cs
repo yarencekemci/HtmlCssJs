@@ -2,6 +2,9 @@
 {
     internal class Isvicre:Ulkeler
     {
-
+        public Isvicre()
+        {
+            Console.WriteLine("---İsvicre---");
+        }
     }
 }
