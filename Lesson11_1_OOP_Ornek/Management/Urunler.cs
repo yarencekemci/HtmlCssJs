@@ -17,7 +17,7 @@ namespace Lesson11_1_OOP_Ornek.Management
         public string Kaydet(UrunlerEntity urunKaydet)
         {
             string bosMesaj = string.Empty; // string degisken icin bos verir
-            if (string.IsNullOrEmpty( urunKaydet.Adi))
+            if (string.IsNullOrEmpty(urunKaydet.Adi))
             {
                 bosMesaj = "Ürün adi bos olamaz";
             }
@@ -33,7 +33,7 @@ namespace Lesson11_1_OOP_Ornek.Management
             {
                 return bosMesaj;
             }
-            return urunKaydet.Adi + "olan ürün \n" + urunKaydet.SatisFiyat + "fiyat ile \n" + urunKaydet.Stok + " adet satildi" ;
+            return urunKaydet.Adi + "olan ürün \n" + urunKaydet.SatisFiyat + "fiyat ile \n" + urunKaydet.Stok + " adet satildi";
             //Kaydet işlemi müşteri ve sipariş için burada yapıldığı gibi yapılacaktır.
         }
 
@@ -44,7 +44,17 @@ namespace Lesson11_1_OOP_Ornek.Management
 
         public bool Sil(int id)
         {
-            throw new NotImplementedException();
+            foreach (var urun in urunler)
+            {
+                if (urun.Id == id)
+                {
+                    urunler.Remove(urun); //urunu listeden siliyor
+                    return true;
+                }
+            }
+
+            return false; //döngü biter ama hiç eşleşme bulunmazsa
+
         }
     }
 }
