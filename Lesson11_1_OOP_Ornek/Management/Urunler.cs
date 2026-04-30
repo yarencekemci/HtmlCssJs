@@ -4,6 +4,11 @@ namespace Lesson11_1_OOP_Ornek.Management
 {
     internal class Urunler : IUrunler
     {
+        public void Deneme()
+        {
+            //Eğer IUrunler altında bir method varsa implement edilen classta (Urunler olmak zorundadır) ama urunler class'ında olan method IUrunler'de(interface) te yoksa hata vermez ama bu şekilde kodlanması önerilmez.
+            //Deneme methodu IUrunler altında yok ve hata da vermez ama bu şekilde bir method kodlanması Interface yapısı kısmı olarak yok saymış olursunuz.
+         }
         public UrunlerEntity GetirIdIle(int id)
         {
             throw new NotImplementedException();
@@ -33,7 +38,7 @@ namespace Lesson11_1_OOP_Ornek.Management
             {
                 return bosMesaj;
             }
-            return urunKaydet.Adi + "olan ürün \n" + urunKaydet.SatisFiyat + "fiyat ile \n" + urunKaydet.Stok + " adet satildi";
+            return urunKaydet.Adi + "\t olan ürün \n" + urunKaydet.BirimFiyat + " alış fiyati ile \n " + urunKaydet.Stok + "adet eklendi \n Eklenme Tarihi: " + urunKaydet.EklenmeTarihi;
             //Kaydet işlemi müşteri ve sipariş için burada yapıldığı gibi yapılacaktır.
         }
 
@@ -44,17 +49,7 @@ namespace Lesson11_1_OOP_Ornek.Management
 
         public bool Sil(int id)
         {
-            foreach (var urun in urunler)
-            {
-                if (urun.Id == id)
-                {
-                    urunler.Remove(urun); //urunu listeden siliyor
-                    return true;
-                }
-            }
-
-            return false; //döngü biter ama hiç eşleşme bulunmazsa
-
+            throw new NotImplementedException();
         }
     }
 }

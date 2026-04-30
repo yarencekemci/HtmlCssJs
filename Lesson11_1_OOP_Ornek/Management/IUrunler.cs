@@ -4,7 +4,7 @@ namespace Lesson11_1_OOP_Ornek.Management
 {
     internal interface IUrunler
     {
-        // kaydet-güncelle-sil-lsit- GetirIdİle gibi methodlar olacak
+        // kaydet-güncelle-sil-list- GetirIdİle gibi methodlar olacak
         string Kaydet(UrunlerEntity urun);
 
         string Guncelle(UrunlerEntity urunGuncelle);

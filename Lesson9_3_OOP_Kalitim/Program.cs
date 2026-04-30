@@ -18,7 +18,7 @@
             kullaniciClass.GuncellenmeTarihi();
 
             Urunler urunlerClass = new Urunler();
-            urunlerClass.EklemeTarihi();
+            urunlerClass.EklenmeTarihi();
             urunlerClass.GuncellenmeTarihi();
         }
     }
