@@ -2,6 +2,8 @@
   <Project Path="Lesson10_1_OOP_property/Lesson10_1_OOP_property.csproj" Id="5d644f02-354f-4659-a0c8-57127c3f2d8e" />
   <Project Path="Lesson10_2_OOP_interface/Lesson10_2_OOP_interface.csproj" Id="793b6917-78c9-46f2-83e8-aac6259598b2" />
   <Project Path="Lesson11_1_OOP_Ornek/Lesson11_1_OOP_Ornek.csproj" Id="5c4225c1-8882-43aa-9ebc-21aaf144f36b" />
+  <Project Path="Lesson12_1_Abstract/Lesson12_1_Abstract.csproj" Id="d194fd17-50d4-439b-8721-b527b89d88bc" />
+  <Project Path="Lesson12_Partial_Class/Lesson12_Partial_Class.csproj" Id="a2482610-4789-43a2-b628-f36993863aee" />
   <Project Path="Lesson1_2_Html_Css/Lesson1_2_Html_Css.csproj" Id="cedb033b-1852-41ed-bfad-ec932e326b85" />
   <Project Path="Lesson1_Html_Giris/Lesson1_Html_Giris.csproj" Id="624d67b6-0d91-4b78-9ec6-2a5144795ea8" />
   <Project Path="Lesson2_1_HtmlCss/Lesson2_1_HtmlCss.csproj" Id="48faedc6-882e-41f3-9850-2152fd4e52b1" />
